@@ -1,0 +1,145 @@
+/* PC */
+@media (min-width: 1024px) {
+    .nav-menu-mobie {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px ) {
+
+
+    .nav-router {
+        display: none;
+    }
+    .nav-menu-mobie {
+        font-size: 3.2rem;
+        color: #fff;
+        margin-left: 2rem;
+    }
+    .nav-container {
+        padding: 4rem 4rem;
+    }
+
+    .slider-content {
+        position: unset;
+        padding-top: 30rem;
+        margin: 0 1rem 0 1rem ;
+    }
+    .slider-right  {
+        display: none;
+    }
+    .nav-event > i {
+        font-size: 3.2rem;
+    }
+
+
+
+}
+
+
+
+
+ /* Mobile */
+
+ @media (max-width:739px ){
+  
+    .nav-router {
+        display: none;
+    }
+    .nav-menu-mobie {
+        font-size: 3.2rem;
+        color: #fff;
+        margin-left: 2rem;
+    }
+
+    .slider-content {
+        position: unset;
+        padding-top: 20rem;
+        margin: 0 1rem 0 1rem ;
+    }
+    .slider-right  {
+        display: none;
+    }
+
+    .convert-boder::before {
+    position: absolute;
+    content: '';
+    top: auto;
+    background-color: #fff;
+    width: 6.5rem;
+    height: 0.1rem;
+    left: calc((85%-6.5rem)/2);
+    }
+
+    .nav-event > i {
+        font-size: 3.2rem;
+    }
+
+    .menu-mobile {
+        z-index: 99;
+        position: fixed;
+        width: 80%;
+        height: 100%;
+
+        transform: translateX(-100%);
+        transition: .5s;
+    }
+
+    .list-menu-mobile {
+        padding: 2rem 6rem 0 0;
+        background-color: #fff;
+        top: 0;
+        height: 100%;
+    }
+    .list-menu-mobile > ul > li {
+        list-style-type: none;
+        font-size: 2.2rem;
+        padding: 2rem 2rem 2rem 0;
+    }
+
+    .list-menu-mobile > ul > li > a{
+        color: #000;
+    }
+    .close-button > i {
+        float: right;
+        font-size: 3rem;
+    }
+    .close-button {
+        margin-bottom: 2rem;
+    }
+    .bg {
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        z-index: 90;
+        width: 100%;
+        height: 100%;
+        opacity: .8;
+        display: none;
+    }
+
+    .nav-router-btn{
+        border-bottom: .1rem rgb(144, 144, 144) solid;
+        padding-top: 6rem !important;
+    }
+    
+}
+
+    .open-menu-mobile {
+        transform: translateX(0%);
+    }
+
+
+@keyframes open-menu {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}

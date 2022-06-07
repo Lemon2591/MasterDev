@@ -1,0 +1,245 @@
+.load-page {
+    position: absolute;
+    z-index: 9999;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.wave {
+  width: 5px;
+  height: 100px;
+  background: #fff;
+  margin: 10px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.nav {
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+ .nav-container {
+     max-width: 140rem;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 4rem 0;
+ }
+
+ .nav-container > .nav-router > ul {
+     font-family:'Slabo 27px', serif; ;
+     padding: 0;
+     list-style-type: none;
+     display: flex;
+ }
+.nav-container > .nav-router > ul > li {
+    margin-right: 10rem;
+}
+ .nav-container > .nav-router > ul > li > a {
+     text-decoration: none;
+     color:  #fff;
+     font-size: 1.6rem;
+     font-style: normal;
+ }
+
+ .nav-event {
+     display: flex;
+     align-items: center;
+ }
+ .nav-event > i {
+     color: #fff;
+     font-size: 22px;
+     cursor: pointer;
+     margin: 0 2rem;
+ }
+
+ .slider-img {
+    background-image: url("../img/slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+     width: 100%;
+     height: 1080px;
+ }
+
+ .slider-img {
+     position: relative;
+ }
+
+ .slider-content {
+     position: absolute;
+     color: #fff;
+     font-size: 2.5rem;
+     bottom: 28%;
+     left: 15%;
+     text-align: center;
+     font-weight: 300;
+
+
+ }
+.slider-text {
+    padding: 1rem 0;
+}
+
+ .slider-text > p {
+    letter-spacing: 2rem;
+ }
+
+ .convert-text > p {
+    letter-spacing: .5rem !important;
+}
+
+.convert-boder::before {
+    position: absolute;
+    top: 0;
+    content: '';
+    background-color: #fff;
+    width: 6.5rem;
+    height: .1rem;
+    left: calc((85%-6.5rem)/2);
+}
+
+.convert-boder::after {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 6.5rem;
+    height: .1rem;
+    left: calc((85%-6.5rem)/2);
+}
+
+.slider-text-uni {
+    margin-top: 5rem;
+}
+
+.slider-btn {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    border: .1rem #fff solid;
+    border-radius: 5rem;
+    cursor: pointer;
+    
+}
+.slider-btn > a {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1.5rem 0;
+}
+
+.slider-right {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+}
+
+.slider-right-dot {
+    background-color: #fff;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 5rem;
+    margin-bottom: 5rem;
+}
+
+.slider-audio-wave  {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slider-audio-wave {
+
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider-gif {
+    display: flex;
+}
+
+.slider-gif > img {
+    filter: invert(100%);
+    max-height: 8rem;
+}
+
+.slider-play-audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    font-size: 3rem;
+    transition: .3s;
+
+}
+.slider-btn {
+    cursor: pointer;
+    transition: .3s;
+}
+.slider-btn > button {
+    cursor: pointer;
+}
+
+.slider-btn:hover {
+    transform: scale(1.15);
+}
+
+.main {
+    position: relative;
+}
