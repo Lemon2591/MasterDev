@@ -48,5 +48,5 @@ wow.init();
 
 $(window).on("load", () => {
   $(".main").removeClass(".load-page");
-  $(".load-page").delay(3000).fadeOut("slow");
+  $(".load-page").delay(1500).fadeOut("slow");
 });
