@@ -21,7 +21,7 @@
   border-radius: 20px;
 }
 .wave:nth-child(2) {
-  animation-delay: 0.1s;
+  animation-delay: 1rem.1s;
 }
 .wave:nth-child(3) {
   animation-delay: 0.2s;
@@ -243,3 +243,126 @@
 .main {
     position: relative;
 }
+.profile {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 15rem;
+}
+.profile-container {
+  display: flex;
+  max-width: 140rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.profile-content {
+  display: flex;
+}
+.info-container {
+  display: flex;
+align-items:center;
+}
+
+.profilr-info {
+  width: 40%;
+}
+
+.profile-career-goals {
+  width: 50%;
+  margin: 0 2.5rem;
+}
+
+.profile-education {
+  width: 50%;
+  margin: 0 2.5rem;
+}
+
+.info-name {
+  font-size: 2.2rem !important;
+  font-weight: 500 !important;
+  opacity: 1 !important;
+}
+.profilr-info {
+  margin: 0 5rem;
+}
+
+.profilr-info > p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 200;
+  opacity: .6;
+}
+
+.info-container {
+  font-size: 1.6rem;
+  font-weight: 200;
+  padding: 2rem 0 1rem 0;
+  border-bottom: 1px solid rgb(65, 65, 65);
+}
+.info-container > i {
+  margin-right: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.info-container > p {
+  margin: 1rem;
+}
+.profile-career-goals > .title ,
+.profile-education > .title {
+  font-size: 2.2rem !important;
+    font-weight: 500 !important;
+    opacity: 1 !important;
+}
+.profile-career-goals > p ,
+.profile-education > p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  opacity: .6;
+  line-height: 2.2rem;
+  word-spacing: .3rem;
+}
+
+.profile-education > .profile-school > span {
+  font-weight: 400;
+}
+
+.profile-more {
+  width: 100%;
+}
+.footer {
+  background-color: rgb(15, 15, 15);
+  
+}
+.content {
+  max-width: 140rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content > p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 200;
+    opacity: .6;
+    line-height: 2.2rem;
+    word-spacing: 0.3rem;
+    padding: 1rem 0 .2rem 0;
+}
+
+.content  > a {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 200;
+  opacity: .6;
+  line-height: 2.2rem;
+  word-spacing: 0.3rem;
+  padding-bottom: 1rem;
+}
+
