@@ -84,6 +84,32 @@
         padding-top: 6rem !important;
     }
 
+    .profile-container {
+        display: block;
+    }
+    .info-name {
+        margin-top: 0;
+    }
+
+    .slider-img {
+        height: 85rem;
+    }
+    .profilr-info > p {
+        text-align: left;
+    }
+
+    .profile-content  {
+        /* display: block; */
+    }
+
+    .profile-career-goals {
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .profile-education {
+        width: 80%;
+    }
 
 
 }
@@ -173,7 +199,33 @@
         border-bottom: .1rem rgb(144, 144, 144) solid;
         padding-top: 6rem !important;
     }
-    
+
+    .profile-container {
+        display: block;
+    }
+    .info-name {
+        margin-top: 0;
+    }
+
+    .slider-img {
+        height: 85rem;
+    }
+    .profilr-info > p {
+        text-align: left;
+    }
+
+    .profile-content  {
+        display: block;
+    }
+
+    .profile-career-goals {
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .profile-education {
+        width: 80%;
+    }
 }
 
     .open-menu-mobile {
