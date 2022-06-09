@@ -18,7 +18,7 @@ html{
     /* font-family: Roboto Condensed, sans-serif; */
     color: #313f5f;
     box-sizing: border-box;
-    
+    scroll-behavior: smooth;
 }
 
 a {
